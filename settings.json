@@ -1,0 +1,20 @@
+{
+	// Basic ESLint settings.
+	"eslint.enable": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"eslint.packageManager": "yarn",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+
+	// Fix newlines, etc.
+	"files.trimFinalNewlines": true,
+	"files.insertFinalNewline": true,
+
+	// Set defaults to use tabs.
+	"editor.detectIndentation": false,
+	"editor.stickyTabStops": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+}
