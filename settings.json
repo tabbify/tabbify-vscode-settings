@@ -3,9 +3,8 @@
 	"eslint.enable": true,
 	"eslint.alwaysShowStatus": true,
 	"eslint.format.enable": true,
-	"eslint.packageManager": "yarn",
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true
+		"source.fixAll": "explicit"
 	},
 
 	// Fix newlines, etc.
@@ -17,4 +16,12 @@
 	"editor.stickyTabStops": true,
 	"editor.insertSpaces": false,
 	"editor.tabSize": 2,
+
+	// Quote styles
+	"npm-intellisense.importQuotes": "'",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"xml.preferences.quoteStyle": "single",
+	"html.completion.attributeDefaultValue": "singlequotes"
+
 }
